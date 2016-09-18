@@ -1,8 +1,8 @@
 import sqlite3
 import sys
 
-class handleSqlite3():
 
+class handleSqlite3():
     def __init__(self):
 
         self.mSqlite3 = sqlite3.connect('{}/UpdateInfo.db'.format(sys.path[0]))
@@ -13,8 +13,7 @@ class handleSqlite3():
         self.mCursor.close()
         self.mSqlite3.close()
 
-
-    def compareIMEI(self,imei):
+    def compareIMEI(self, imei):
         """
         比较传入的 IMEI 值，返回是否可以升级信息
         返回值：True
@@ -23,7 +22,7 @@ class handleSqlite3():
         """
 
         try:
-            value = self.mCursor.execute('select Enable from IMEIList where IMEI=?',[imei]).fetchall()
+            value = self.mCursor.execute('select Enable from IMEIList where IMEI=?', [imei]).fetchall()
             if len(value) != 0:
                 return value[0][0]
             else:
@@ -51,12 +50,15 @@ class handleSqlite3():
         返回值类型：list
         """
         value = self.mCursor.execute('select Version from UpdateInfo').fetchall()
+        returnvalue = []
         if len(value) != 0:
-            return value[0]
+            for i in value:
+                returnvalue.append(i[0])
+            return returnvalue
         else:
             print('获取version数据失败')
 
-    def getDownFile(self,version):
+    def getDownFile(self, version):
         """
         根据给定的 version 返回下载路径和下载文件
         返回值：filepath,filename
@@ -64,16 +66,16 @@ class handleSqlite3():
         """
         filepath = None
         filename = None
-        value = self.mCursor.execute('select FilePath from UpdateInfo where Version=?',[version]).fetchone()
+        value = self.mCursor.execute('select FileLink from UpdateInfo where Version=?', [version]).fetchone()
         if value != None:
             filepath = value[0]
         else:
-            print('获取filepath数据失败')
-        value = self.mCursor.execute('select FileName from UpdateInfo where Version=?',[version]).fetchone()
+            print('获取filelink数据失败')
+        value = self.mCursor.execute('select FileName from UpdateInfo where Version=?', [version]).fetchone()
         if value != None:
             filename = value[0]
         else:
             print('获取filename数据失败')
         if filename != None:
             if filepath != None:
-                return (filepath,filename)
+                return (filepath, filename)
