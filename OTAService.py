@@ -1,10 +1,12 @@
-from flask import Flask
-from flask import abort
-from flask import request
-from flask import redirect
+from flask import Flask, abort, request, helpers
 import handleDB
 
 app = Flask(__name__)
+
+
+@app.route("/")
+def index():
+    return "hello"
 
 
 @app.route('/getlastversion', methods=['POST'])
@@ -49,9 +51,8 @@ def getdownfile():
     if version in versionlist:
         downfiletuple = handleDB.handleSqlite3().getDownFile(version)
         handleDB.handleSqlite3().closeDB()
-        return redirect(downfiletuple[0] + downfiletuple[1],)
+        return helpers.send_from_directory(downfiletuple[0], downfiletuple[1], as_attachment=True)
     abort(404)
 
-
 if __name__ == '__main__':
-    app.run('0.0.0.0', 8081)
+    app.run('0.0.0.0', 8080)

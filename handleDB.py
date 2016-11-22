@@ -66,7 +66,7 @@ class handleSqlite3():
         """
         filepath = None
         filename = None
-        value = self.mCursor.execute('select FileLink from UpdateInfo where Version=?', [version]).fetchone()
+        value = self.mCursor.execute('select FilePath from UpdateInfo where Version=?', [version]).fetchone()
         if value != None:
             filepath = value[0]
         else:
