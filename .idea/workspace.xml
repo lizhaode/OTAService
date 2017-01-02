@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f1614531-9838-48fd-ad3d-c24f9e8b941a" name="Default" comment="" />
+    <list default="true" id="f1614531-9838-48fd-ad3d-c24f9e8b941a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/OTAService.iml" afterPath="$PROJECT_DIR$/.idea/OTAService.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="OTAService.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,12 +16,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/OTAService$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1474186881365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/OTAService$OTAService.coverage" NAME="OTAService Coverage Results" MODIFIED="1474860430014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/OTAService$test.coverage" NAME="test Coverage Results" MODIFIED="1473871586205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/OTAService$tmp.coverage" NAME="tmp Coverage Results" MODIFIED="1474186881365" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/OTAService$OTAService.coverage" NAME="OTAService Coverage Results" MODIFIED="1483370487515" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -28,13 +40,10 @@
       <file leaf-file-name="OTAService.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/OTAService.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+            <state relative-caret-position="253">
+              <caret line="63" column="42" lean-forward="false" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="42" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
-                <element signature="e#123#137#0" expanded="true" />
-                <element signature="e#213#767#0" expanded="true" />
-                <element signature="e#820#1334#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -44,7 +53,7 @@
         <entry file="file://$PROJECT_DIR$/uwsgiconfig.ini">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -53,15 +62,15 @@
       <file leaf-file-name="handleDB.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/handleDB.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="8" column="43" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="43" />
+            <state relative-caret-position="1386">
+              <caret line="78" column="15" lean-forward="false" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="15" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <element signature="e#235#285#0" expanded="true" />
-                <element signature="e#328#742#0" expanded="true" />
-                <element signature="e#782#1066#0" expanded="true" />
-                <element signature="e#1105#1463#0" expanded="true" />
-                <element signature="e#1509#2198#0" expanded="true" />
+                <marker date="1483365990000" expanded="true" signature="492:532" ph="select Enabl... IMEIList" />
+                <marker date="1483365990000" expanded="true" signature="898:950" ph="select Versi... UpdateInfo" />
+                <marker date="1483365990000" expanded="true" signature="1218:1248" ph="select Versi... UpdateInfo" />
+                <marker date="1483365990000" expanded="true" signature="1695:1742" ph="select FileP... UpdateInfo" />
+                <marker date="1483365990000" expanded="true" signature="1913:1960" ph="select FileN... UpdateInfo" />
               </folding>
             </state>
           </provider>
@@ -77,13 +86,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/tmp.py" />
-        <option value="$PROJECT_DIR$/handleDB.py" />
         <option value="$PROJECT_DIR$/uwsgi.log" />
         <option value="$PROJECT_DIR$/uwsgiconfig.ini" />
+        <option value="$PROJECT_DIR$/handleDB.py" />
         <option value="$PROJECT_DIR$/OTAService.py" />
       </list>
     </option>
@@ -96,18 +108,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="709" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
+    <option name="width" value="1440" />
+    <option name="height" value="797" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -124,14 +126,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OTAService" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="OTAService" />
@@ -144,13 +142,10 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
@@ -286,7 +281,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -443,30 +438,61 @@
       <option name="presentableId" value="Default" />
       <updated>1473869902846</updated>
     </task>
+    <task id="LOCAL-00001" summary="改成使用Get方法，且接受params参数">
+      <created>1483370774898</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1483370774898</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="709" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1964996" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18194842" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5489362" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.60509557" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6042553" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -479,6 +505,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="改成使用Get方法，且接受params参数" />
+    <option name="LAST_COMMIT_MESSAGE" value="改成使用Get方法，且接受params参数" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
@@ -489,14 +519,14 @@
     <entry file="file://$PROJECT_DIR$/handleDB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="68" column="53" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
+          <caret line="68" column="53" lean-forward="false" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#235#285#0" expanded="true" />
-            <element signature="e#328#742#0" expanded="true" />
-            <element signature="e#782#1066#0" expanded="true" />
-            <element signature="e#1105#1463#0" expanded="true" />
-            <element signature="e#1509#2198#0" expanded="true" />
+            <marker date="1483365990000" expanded="true" signature="492:532" ph="select Enabl... IMEIList" />
+            <marker date="1483365990000" expanded="true" signature="898:950" ph="select Versi... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1218:1248" ph="select Versi... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1695:1742" ph="select FileP... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1913:1960" ph="select FileN... UpdateInfo" />
           </folding>
         </state>
       </provider>
@@ -504,12 +534,9 @@
     <entry file="file://$PROJECT_DIR$/OTAService.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
-            <element signature="e#123#137#0" expanded="true" />
-            <element signature="e#213#767#0" expanded="true" />
-            <element signature="e#820#1334#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -517,7 +544,7 @@
     <entry file="file://$PROJECT_DIR$/uwsgiconfig.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -525,14 +552,14 @@
     <entry file="file://$PROJECT_DIR$/handleDB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="68" column="53" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
+          <caret line="68" column="53" lean-forward="false" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#235#285#0" expanded="true" />
-            <element signature="e#328#742#0" expanded="true" />
-            <element signature="e#782#1066#0" expanded="true" />
-            <element signature="e#1105#1463#0" expanded="true" />
-            <element signature="e#1509#2198#0" expanded="true" />
+            <marker date="1483365990000" expanded="true" signature="492:532" ph="select Enabl... IMEIList" />
+            <marker date="1483365990000" expanded="true" signature="898:950" ph="select Versi... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1218:1248" ph="select Versi... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1695:1742" ph="select FileP... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1913:1960" ph="select FileN... UpdateInfo" />
           </folding>
         </state>
       </provider>
@@ -540,12 +567,9 @@
     <entry file="file://$PROJECT_DIR$/OTAService.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
-            <element signature="e#123#137#0" expanded="true" />
-            <element signature="e#213#767#0" expanded="true" />
-            <element signature="e#820#1334#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -553,7 +577,7 @@
     <entry file="file://$PROJECT_DIR$/uwsgiconfig.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -561,14 +585,14 @@
     <entry file="file://$PROJECT_DIR$/handleDB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="68" column="53" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
+          <caret line="68" column="53" lean-forward="false" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#235#285#0" expanded="true" />
-            <element signature="e#328#742#0" expanded="true" />
-            <element signature="e#782#1066#0" expanded="true" />
-            <element signature="e#1105#1463#0" expanded="true" />
-            <element signature="e#1509#2198#0" expanded="true" />
+            <marker date="1483365990000" expanded="true" signature="492:532" ph="select Enabl... IMEIList" />
+            <marker date="1483365990000" expanded="true" signature="898:950" ph="select Versi... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1218:1248" ph="select Versi... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1695:1742" ph="select FileP... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1913:1960" ph="select FileN... UpdateInfo" />
           </folding>
         </state>
       </provider>
@@ -576,12 +600,9 @@
     <entry file="file://$PROJECT_DIR$/OTAService.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
-            <element signature="e#123#137#0" expanded="true" />
-            <element signature="e#213#767#0" expanded="true" />
-            <element signature="e#820#1334#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -589,7 +610,7 @@
     <entry file="file://$PROJECT_DIR$/uwsgiconfig.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -597,14 +618,14 @@
     <entry file="file://$PROJECT_DIR$/handleDB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="68" column="53" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
+          <caret line="68" column="53" lean-forward="false" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#235#285#0" expanded="true" />
-            <element signature="e#328#742#0" expanded="true" />
-            <element signature="e#782#1066#0" expanded="true" />
-            <element signature="e#1105#1463#0" expanded="true" />
-            <element signature="e#1509#2198#0" expanded="true" />
+            <marker date="1483365990000" expanded="true" signature="492:532" ph="select Enabl... IMEIList" />
+            <marker date="1483365990000" expanded="true" signature="898:950" ph="select Versi... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1218:1248" ph="select Versi... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1695:1742" ph="select FileP... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1913:1960" ph="select FileN... UpdateInfo" />
           </folding>
         </state>
       </provider>
@@ -612,12 +633,9 @@
     <entry file="file://$PROJECT_DIR$/OTAService.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+          <caret line="63" column="28" lean-forward="false" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
-            <element signature="e#123#137#0" expanded="true" />
-            <element signature="e#213#767#0" expanded="true" />
-            <element signature="e#820#1334#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -625,7 +643,7 @@
     <entry file="file://$PROJECT_DIR$/uwsgiconfig.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -633,14 +651,14 @@
     <entry file="file://$PROJECT_DIR$/handleDB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="68" column="53" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
+          <caret line="68" column="53" lean-forward="false" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#235#285#0" expanded="true" />
-            <element signature="e#328#742#0" expanded="true" />
-            <element signature="e#782#1066#0" expanded="true" />
-            <element signature="e#1105#1463#0" expanded="true" />
-            <element signature="e#1509#2198#0" expanded="true" />
+            <marker date="1483365990000" expanded="true" signature="492:532" ph="select Enabl... IMEIList" />
+            <marker date="1483365990000" expanded="true" signature="898:950" ph="select Versi... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1218:1248" ph="select Versi... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1695:1742" ph="select FileP... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1913:1960" ph="select FileN... UpdateInfo" />
           </folding>
         </state>
       </provider>
@@ -648,12 +666,9 @@
     <entry file="file://$PROJECT_DIR$/OTAService.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
-            <element signature="e#123#137#0" expanded="true" />
-            <element signature="e#213#767#0" expanded="true" />
-            <element signature="e#820#1334#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -661,7 +676,7 @@
     <entry file="file://$PROJECT_DIR$/uwsgiconfig.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -669,14 +684,14 @@
     <entry file="file://$PROJECT_DIR$/handleDB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="68" column="53" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
+          <caret line="68" column="53" lean-forward="false" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#235#285#0" expanded="true" />
-            <element signature="e#328#742#0" expanded="true" />
-            <element signature="e#782#1066#0" expanded="true" />
-            <element signature="e#1105#1463#0" expanded="true" />
-            <element signature="e#1509#2198#0" expanded="true" />
+            <marker date="1483365990000" expanded="true" signature="492:532" ph="select Enabl... IMEIList" />
+            <marker date="1483365990000" expanded="true" signature="898:950" ph="select Versi... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1218:1248" ph="select Versi... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1695:1742" ph="select FileP... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1913:1960" ph="select FileN... UpdateInfo" />
           </folding>
         </state>
       </provider>
@@ -684,12 +699,9 @@
     <entry file="file://$PROJECT_DIR$/OTAService.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
-            <element signature="e#123#137#0" expanded="true" />
-            <element signature="e#213#767#0" expanded="true" />
-            <element signature="e#820#1334#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -697,7 +709,7 @@
     <entry file="file://$PROJECT_DIR$/uwsgiconfig.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="1" column="14" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -705,14 +717,14 @@
     <entry file="file://$PROJECT_DIR$/handleDB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1224">
-          <caret line="68" column="53" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
+          <caret line="68" column="53" lean-forward="false" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#235#285#0" expanded="true" />
-            <element signature="e#328#742#0" expanded="true" />
-            <element signature="e#782#1066#0" expanded="true" />
-            <element signature="e#1105#1463#0" expanded="true" />
-            <element signature="e#1509#2198#0" expanded="true" />
+            <marker date="1483365990000" expanded="true" signature="492:532" ph="select Enabl... IMEIList" />
+            <marker date="1483365990000" expanded="true" signature="898:950" ph="select Versi... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1218:1248" ph="select Versi... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1695:1742" ph="select FileP... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1913:1960" ph="select FileN... UpdateInfo" />
           </folding>
         </state>
       </provider>
@@ -720,12 +732,9 @@
     <entry file="file://$PROJECT_DIR$/OTAService.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
-          <caret line="35" column="26" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+          <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
-            <element signature="e#123#137#0" expanded="true" />
-            <element signature="e#213#767#0" expanded="true" />
-            <element signature="e#820#1334#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -733,7 +742,7 @@
     <entry file="file://$PROJECT_DIR$/uwsgiconfig.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -741,14 +750,14 @@
     <entry file="file://$PROJECT_DIR$/handleDB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="68" column="53" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
+          <caret line="68" column="53" lean-forward="false" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#235#285#0" expanded="true" />
-            <element signature="e#328#742#0" expanded="true" />
-            <element signature="e#782#1066#0" expanded="true" />
-            <element signature="e#1105#1463#0" expanded="true" />
-            <element signature="e#1509#2198#0" expanded="true" />
+            <marker date="1483365990000" expanded="true" signature="492:532" ph="select Enabl... IMEIList" />
+            <marker date="1483365990000" expanded="true" signature="898:950" ph="select Versi... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1218:1248" ph="select Versi... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1695:1742" ph="select FileP... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1913:1960" ph="select FileN... UpdateInfo" />
           </folding>
         </state>
       </provider>
@@ -756,12 +765,9 @@
     <entry file="file://$PROJECT_DIR$/OTAService.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
-            <element signature="e#123#137#0" expanded="true" />
-            <element signature="e#213#767#0" expanded="true" />
-            <element signature="e#820#1334#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -769,14 +775,14 @@
     <entry file="file://$PROJECT_DIR$/handleDB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="68" column="53" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
+          <caret line="68" column="53" lean-forward="false" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#235#285#0" expanded="true" />
-            <element signature="e#328#742#0" expanded="true" />
-            <element signature="e#782#1066#0" expanded="true" />
-            <element signature="e#1105#1463#0" expanded="true" />
-            <element signature="e#1509#2198#0" expanded="true" />
+            <marker date="1483365990000" expanded="true" signature="492:532" ph="select Enabl... IMEIList" />
+            <marker date="1483365990000" expanded="true" signature="898:950" ph="select Versi... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1218:1248" ph="select Versi... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1695:1742" ph="select FileP... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1913:1960" ph="select FileN... UpdateInfo" />
           </folding>
         </state>
       </provider>
@@ -784,12 +790,9 @@
     <entry file="file://$PROJECT_DIR$/OTAService.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
-            <element signature="e#123#137#0" expanded="true" />
-            <element signature="e#213#767#0" expanded="true" />
-            <element signature="e#820#1334#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -797,14 +800,14 @@
     <entry file="file://$PROJECT_DIR$/handleDB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="68" column="53" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
+          <caret line="68" column="53" lean-forward="false" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#235#285#0" expanded="true" />
-            <element signature="e#328#742#0" expanded="true" />
-            <element signature="e#782#1066#0" expanded="true" />
-            <element signature="e#1105#1463#0" expanded="true" />
-            <element signature="e#1509#2198#0" expanded="true" />
+            <marker date="1483365990000" expanded="true" signature="492:532" ph="select Enabl... IMEIList" />
+            <marker date="1483365990000" expanded="true" signature="898:950" ph="select Versi... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1218:1248" ph="select Versi... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1695:1742" ph="select FileP... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1913:1960" ph="select FileN... UpdateInfo" />
           </folding>
         </state>
       </provider>
@@ -812,12 +815,9 @@
     <entry file="file://$PROJECT_DIR$/OTAService.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
-            <element signature="e#123#137#0" expanded="true" />
-            <element signature="e#213#767#0" expanded="true" />
-            <element signature="e#820#1334#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -825,21 +825,21 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/handleDB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="68" column="53" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
+          <caret line="68" column="53" lean-forward="false" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#235#285#0" expanded="true" />
-            <element signature="e#328#742#0" expanded="true" />
-            <element signature="e#782#1066#0" expanded="true" />
-            <element signature="e#1105#1463#0" expanded="true" />
-            <element signature="e#1509#2198#0" expanded="true" />
+            <marker date="1483365990000" expanded="true" signature="492:532" ph="select Enabl... IMEIList" />
+            <marker date="1483365990000" expanded="true" signature="898:950" ph="select Versi... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1218:1248" ph="select Versi... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1695:1742" ph="select FileP... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1913:1960" ph="select FileN... UpdateInfo" />
           </folding>
         </state>
       </provider>
@@ -847,12 +847,9 @@
     <entry file="file://$PROJECT_DIR$/OTAService.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
-            <element signature="e#123#137#0" expanded="true" />
-            <element signature="e#213#767#0" expanded="true" />
-            <element signature="e#820#1334#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -860,14 +857,14 @@
     <entry file="file://$PROJECT_DIR$/handleDB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="68" column="53" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
+          <caret line="68" column="53" lean-forward="false" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#235#285#0" expanded="true" />
-            <element signature="e#328#742#0" expanded="true" />
-            <element signature="e#782#1066#0" expanded="true" />
-            <element signature="e#1105#1463#0" expanded="true" />
-            <element signature="e#1509#2198#0" expanded="true" />
+            <marker date="1483365990000" expanded="true" signature="492:532" ph="select Enabl... IMEIList" />
+            <marker date="1483365990000" expanded="true" signature="898:950" ph="select Versi... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1218:1248" ph="select Versi... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1695:1742" ph="select FileP... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1913:1960" ph="select FileN... UpdateInfo" />
           </folding>
         </state>
       </provider>
@@ -875,12 +872,9 @@
     <entry file="file://$PROJECT_DIR$/OTAService.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
-            <element signature="e#123#137#0" expanded="true" />
-            <element signature="e#213#767#0" expanded="true" />
-            <element signature="e#820#1334#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -888,14 +882,14 @@
     <entry file="file://$PROJECT_DIR$/handleDB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="68" column="53" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
+          <caret line="68" column="53" lean-forward="false" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#235#285#0" expanded="true" />
-            <element signature="e#328#742#0" expanded="true" />
-            <element signature="e#782#1066#0" expanded="true" />
-            <element signature="e#1105#1463#0" expanded="true" />
-            <element signature="e#1509#2198#0" expanded="true" />
+            <marker date="1483365990000" expanded="true" signature="492:532" ph="select Enabl... IMEIList" />
+            <marker date="1483365990000" expanded="true" signature="898:950" ph="select Versi... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1218:1248" ph="select Versi... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1695:1742" ph="select FileP... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1913:1960" ph="select FileN... UpdateInfo" />
           </folding>
         </state>
       </provider>
@@ -903,12 +897,9 @@
     <entry file="file://$PROJECT_DIR$/OTAService.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
-            <element signature="e#123#137#0" expanded="true" />
-            <element signature="e#213#767#0" expanded="true" />
-            <element signature="e#820#1334#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -916,14 +907,14 @@
     <entry file="file://$PROJECT_DIR$/handleDB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <caret line="18" column="16" lean-forward="false" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#235#285#0" expanded="true" />
-            <element signature="e#328#742#0" expanded="true" />
-            <element signature="e#782#1066#0" expanded="true" />
-            <element signature="e#1105#1463#0" expanded="true" />
-            <element signature="e#1509#2198#0" expanded="true" />
+            <marker date="1483365990000" expanded="true" signature="492:532" ph="select Enabl... IMEIList" />
+            <marker date="1483365990000" expanded="true" signature="898:950" ph="select Versi... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1218:1248" ph="select Versi... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1695:1742" ph="select FileP... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1913:1960" ph="select FileN... UpdateInfo" />
           </folding>
         </state>
       </provider>
@@ -932,12 +923,9 @@
     <entry file="file://$PROJECT_DIR$/OTAService.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
-            <element signature="e#123#137#0" expanded="true" />
-            <element signature="e#213#767#0" expanded="true" />
-            <element signature="e#820#1334#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -945,14 +933,14 @@
     <entry file="file://$PROJECT_DIR$/handleDB.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="29" column="36" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
+          <caret line="29" column="36" lean-forward="false" selection-start-line="29" selection-start-column="36" selection-end-line="29" selection-end-column="36" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#235#285#0" expanded="true" />
-            <element signature="e#328#742#0" expanded="true" />
-            <element signature="e#782#1066#0" expanded="true" />
-            <element signature="e#1105#1463#0" expanded="true" />
-            <element signature="e#1509#2198#0" expanded="true" />
+            <marker date="1483365990000" expanded="true" signature="492:532" ph="select Enabl... IMEIList" />
+            <marker date="1483365990000" expanded="true" signature="898:950" ph="select Versi... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1218:1248" ph="select Versi... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1695:1742" ph="select FileP... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1913:1960" ph="select FileN... UpdateInfo" />
           </folding>
         </state>
       </provider>
@@ -960,81 +948,54 @@
     <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm2016.2/python_stubs/-1095336389/_sqlite3.py" />
     <entry file="file://$PROJECT_DIR$/tmp.py" />
-    <entry file="file:///usr/local/lib/python3.5/site-packages/werkzeug/datastructures.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="1299" column="8" selection-start-line="1299" selection-start-column="8" selection-end-line="1299" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.5/site-packages/werkzeug/wrappers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="484" column="8" selection-start-line="484" selection-start-column="8" selection-end-line="484" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/local/lib/python3.5/site-packages/werkzeug/exceptions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9054">
-          <caret line="647" column="0" selection-start-line="647" selection-start-column="0" selection-end-line="647" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/local/lib/python3.5/site-packages/werkzeug/datastructures.py" />
+    <entry file="file:///usr/local/lib/python3.5/site-packages/werkzeug/wrappers.py" />
+    <entry file="file:///usr/local/lib/python3.5/site-packages/werkzeug/exceptions.py" />
     <entry file="file://$PROJECT_DIR$/.git/info/exclude">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/lib/python3.5/site-packages/flask/helpers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="615" column="62" selection-start-line="615" selection-start-column="49" selection-end-line="615" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/local/lib/python3.5/site-packages/flask/helpers.py" />
     <entry file="file://$PROJECT_DIR$/uwsgi.log" />
     <entry file="file://$PROJECT_DIR$/uwsgiconfig.ini">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/handleDB.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="8" column="43" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="43" />
+        <state relative-caret-position="1386">
+          <caret line="78" column="15" lean-forward="false" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="15" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <element signature="e#235#285#0" expanded="true" />
-            <element signature="e#328#742#0" expanded="true" />
-            <element signature="e#782#1066#0" expanded="true" />
-            <element signature="e#1105#1463#0" expanded="true" />
-            <element signature="e#1509#2198#0" expanded="true" />
+            <marker date="1483365990000" expanded="true" signature="492:532" ph="select Enabl... IMEIList" />
+            <marker date="1483365990000" expanded="true" signature="898:950" ph="select Versi... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1218:1248" ph="select Versi... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1695:1742" ph="select FileP... UpdateInfo" />
+            <marker date="1483365990000" expanded="true" signature="1913:1960" ph="select FileN... UpdateInfo" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OTAService.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+        <state relative-caret-position="253">
+          <caret line="63" column="42" lean-forward="false" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="42" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
-            <element signature="e#123#137#0" expanded="true" />
-            <element signature="e#213#767#0" expanded="true" />
-            <element signature="e#820#1334#0" expanded="true" />
           </folding>
         </state>
       </provider>
